@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "nodemon ./server.js",
-    "start": "node ./bin/www"
+    "build": "echo 'Skipping build step...'",
+    "start": "node ./server.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
